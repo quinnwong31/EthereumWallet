@@ -9,6 +9,7 @@ TODO
 This example uses the following technologies:
 
 - **Web3.py** -  a Python library that allows us to talk to Ethereum nodes in our favorite language, Python. Web3.py is a software development kit (SDK) like any other SDK you've used to talk to other APIs. But this time, the API originates from an Ethereum node.
+- **Ganache** - Ganache is a personal blockchain for rapid Ethereum and Corda distributed application development. You can use Ganache across the entire development cycle; enabling you to develop, deploy, and test your dApps in a safe and deterministic environment.
 
 ## Installation
 
