@@ -2,14 +2,26 @@
 
 ## Description
 
-TODO 
+For this Challenge, you will assume the perspective of a Fintech Finder
+customer in order to do the following:
+
+- Generate a new Ethereum account instance by using your mnemonic seed phrase
+  (which you created earlier in the module).
+
+- Fetch and display the account balance associated with your Ethereum account
+  address.
+
+- Calculate the total value of an Ethereum transaction, including the gas estimate, that pays a Fintech Finder candidate for their work.
+
+- Digitally sign a transaction that pays a Fintech Finder candidate, and send this transaction to the Ganache blockchain.
 
 ## Technologies
 
 This example uses the following technologies:
 
-- **Web3.py** -  a Python library that allows us to talk to Ethereum nodes in our favorite language, Python. Web3.py is a software development kit (SDK) like any other SDK you've used to talk to other APIs. But this time, the API originates from an Ethereum node.
+- **Web3.py** - a Python library that allows us to talk to Ethereum nodes in our favorite language, Python. Web3.py is a software development kit (SDK) like any other SDK you've used to talk to other APIs. But this time, the API originates from an Ethereum node.
 - **Ganache** - Ganache is a personal blockchain for rapid Ethereum and Corda distributed application development. You can use Ganache across the entire development cycle; enabling you to develop, deploy, and test your dApps in a safe and deterministic environment.
+- **streamlit**
 
 ## Installation
 
@@ -20,10 +32,24 @@ The required libraries are stored in `requirements.txt`. To install the required
 
 ## Usage
 
-### Launching the Blockchain Ledger application
+### Launching the Fintech Finder application
 
-TO DO
+To launch the Fintech Finder application, do the following:
 
+1. Launch terminal
+2. Execute the following command:
+
+```
+streamlit run fintech_finder.py
+```
+
+### Verifying the Transaction
+
+Navigate to the Ganache accounts tab and locate your account (index 0).
+Screenshot of the accounts tab
+
+Navigate to the Ganache transactions tab and locate the transaction.
+Screenshot of the transactions tab
 
 ## Contributors
 
