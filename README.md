@@ -2,13 +2,13 @@
 
 ## Description
 
-For this Challenge, you will assume the perspective of a Fintech Finder
+In this Ethereum Wallet sample application, we take on the perspective of a Fintech Finder
 customer in order to do the following:
 
-- Generate a new Ethereum account instance by using your mnemonic seed phrase
+- Generate a new Ethereum account instance by using a mnemonic seed phrase
   (which you created earlier in the module).
 
-- Fetch and display the account balance associated with your Ethereum account
+- Fetch and display the account balance associated with an Ethereum account
   address.
 
 - Calculate the total value of an Ethereum transaction, including the gas estimate, that pays a Fintech Finder candidate for their work.
@@ -21,7 +21,7 @@ This example uses the following technologies:
 
 - **Web3.py** - a Python library that allows us to talk to Ethereum nodes in our favorite language, Python. Web3.py is a software development kit (SDK) like any other SDK you've used to talk to other APIs. But this time, the API originates from an Ethereum node.
 - **Ganache** - Ganache is a personal blockchain for rapid Ethereum and Corda distributed application development. You can use Ganache across the entire development cycle; enabling you to develop, deploy, and test your dApps in a safe and deterministic environment.
-- **streamlit**
+- **streamlit** - Streamlit is a platform for building rich, interactive web applications in the cloud using Python.
 
 ## Installation
 
@@ -45,11 +45,13 @@ streamlit run fintech_finder.py
 
 ### Verifying the Transaction
 
-Navigate to the Ganache accounts tab and locate your account (index 0).
-Screenshot of the accounts tab
+To verify that the transaction is successful, we can check the Accounts and Transactions tabs in Ganache:
 
-Navigate to the Ganache transactions tab and locate the transaction.
-Screenshot of the transactions tab
+1. **Accounts Tab** - Navigate to the Ganache accounts tab and locate your account (index 0).
+   ![Ethereum accounts](/Images/eth_accounts.jpg)
+
+2. **Transactions Tab** - Navigate to the Ganache transactions tab and locate the transaction.
+   ![Transaction accounts](/Images/eth_transaction.jpg)
 
 ## Contributors
 
